@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Legia Akademia</string>
+
+    <!-- Login -->
+    <string name="login_title">LEGIA WARSZAWA</string>
+    <string name="login_subtitle">System zapisów do akademii</string>
+    <string name="email">Email</string>
+    <string name="password">Hasło</string>
+    <string name="login_button">Zaloguj się</string>
+    <string name="no_account">Nie masz konta? Zarejestruj się</string>
+    <string name="logging_in">Logowanie…</string>
+
+    <!-- Register -->
+    <string name="register_title">Rejestracja rodzica</string>
+    <string name="first_name">Imię</string>
+    <string name="last_name">Nazwisko</string>
+    <string name="phone">Telefon</string>
+    <string name="confirm_password">Potwierdź hasło</string>
+    <string name="register_button">Zarejestruj się</string>
+    <string name="have_account">Masz już konto? Zaloguj się</string>
+    <string name="registering">Rejestracja…</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">⚽ LEGIA WARSZAWA - Akademia Piłkarska</string>
+    <string name="my_children">Moje dzieci</string>
+    <string name="add_child">+ Dodaj dziecko</string>
+    <string name="logout">Wyloguj</string>
+    <string name="no_children">Nie masz jeszcze dodanych dzieci. Kliknij \"Dodaj dziecko\" aby rozpocząć.</string>
+    <string name="available_categories">Dostępne kategorie wiekowe</string>
+    <string name="loading">Ładowanie…</string>
+
+    <!-- Child Card -->
+    <string name="birth_date">Data urodzenia:</string>
+    <string name="pesel_label">PESEL:</string>
+    <string name="category">Kategoria wiekowa:</string>
+    <string name="not_assigned">Nie przypisano</string>
+    <string name="assigned_to">✓ Zapisany do:</string>
+    <string name="delete_child">Usuń dziecko</string>
+    <string name="confirm_delete">Czy na pewno chcesz usunąć dziecko?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+
+    <!-- Add Child Dialog -->
+    <string name="add_child_title">Dodaj dziecko</string>
+    <string name="child_first_name">Imię</string>
+    <string name="child_last_name">Nazwisko</string>
+    <string name="child_birth_date">Data urodzenia</string>
+    <string name="child_pesel">PESEL</string>
+    <string name="select_category">Kategoria wiekowa (opcjonalnie)</string>
+    <string name="select_category_prompt">Wybierz kategorię</string>
+    <string name="cancel">Anuluj</string>
+    <string name="add">Dodaj</string>
+
+    <!-- Category Table -->
+    <string name="category_name">Kategoria</string>
+    <string name="year_range">Roczniki</string>
+    <string name="description">Opis</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_credentials">Nieprawidłowy email lub hasło</string>
+    <string name="error_registration_failed">Rejestracja nie powiodła się. Email może być już zajęty.</string>
+    <string name="error_passwords_dont_match">Hasła nie są zgodne</string>
+    <string name="error_password_too_short">Hasło musi mieć minimum 6 znaków</string>
+    <string name="error_fill_all_fields">Wypełnij wszystkie pola</string>
+    <string name="error_loading_data">Błąd pobierania danych. Sprawdź czy backend działa.</string>
+    <string name="error_adding_child">Błąd dodawania dziecka</string>
+    <string name="error_deleting_child">Błąd usuwania dziecka</string>
+    <string name="error_changing_category">Błąd zmiany kategorii</string>
+    <string name="error_network">Błąd połączenia z serwerem</string>
+
+    <!-- Success -->
+    <string name="success_registered">Rejestracja pomyślna!</string>
+    <string name="success_logged_in">Zalogowano pomyślnie!</string>
+    <string name="success_child_added">Dziecko zostało dodane</string>
+    <string name="success_child_deleted">Dziecko zostało usunięte</string>
+    <string name="success_category_changed">Kategoria została zmieniona</string>
+</resources>
