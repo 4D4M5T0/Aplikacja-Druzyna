@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.LegiaAkademia" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/legia_green</item>
+        <item name="colorPrimaryVariant">@color/legia_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/legia_gold</item>
+        <item name="colorSecondaryVariant">@color/legia_gold</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">@color/legia_green</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.LegiaAkademia" parent="Base.Theme.LegiaAkademia" />
+
+    <style name="Theme.LegiaAkademia.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/legia_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="Button.Danger" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/error</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/text_secondary</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="Card.Child" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="Text.Title" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/legia_green</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Subtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+</resources>
